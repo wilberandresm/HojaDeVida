@@ -215,6 +215,8 @@ header{
   flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 40px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .proyectos .titulo{
   width: 100%;
@@ -263,9 +265,12 @@ header{
   text-align: center;
   line-height: normal;
 }
-
+.boton{
+  width: 100%;
+}
 .vermas{
   /*float: 51%;*/
+  width: 160px;
   text-align: center;
   margin: 10px auto;
   background: whitesmoke;
