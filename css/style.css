@@ -279,6 +279,7 @@ header{
 }
 .vermas:hover{
   background:#ebeb1a;
+  font-weight: bold;
 }
 .vermas a{
   text-decoration: none;
