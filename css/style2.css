@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*se centra el contenido del body*/
+body {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+/*al texto se le da caracteristicas responsive y centrado*/
+.fly-in-text {
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+/*se le da estilo a las letas además de coordinar sus transiciones*/
+.fly-in-text li {
+    display: inline-block;
+    margin-right: 50px;
+    font-family: Open Sans, Arial;
+    font-weight: 300;
+    font-size: 4em;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+}
+.fly-in-text li:last-child {
+    margin-right: 0;
+}
+.fly-in-text.hidden li {
+    opacity: 0;
+}
+/*cada letra se posiciona en un espacio diferente inicialemte alrededor de la pantalla*/
+.fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+.fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+.fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+.fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+.fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+.fly-in-text.hidden li:nth-child(8) { transform: translateX(40px) translateY(250px); }
+.fly-in-text.hidden li:nth-child(9) { transform: translateX(-250px) translateY(-200px); }
+
+
+.boton{
+    top: 65%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin: auto 0px;
+    cursor: pointer;
+    font-family: Open Sans, Arial;
+    opacity: 1;
+    transition: all 2.5s ease;
+    
+
+}
+.boton a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+   
+}
+.boton.hidden a {
+    opacity: 0;
+}
+
