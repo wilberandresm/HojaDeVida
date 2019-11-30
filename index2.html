@@ -9,9 +9,18 @@
     <link href="https://fonts.googleapis.com/css?family=Overpass:400,700,800i,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'><link rel="stylesheet" href="./css/style.css">
    
 </head>
 <body>
+  <!-- partial:index.partial.html -->
+  <!-- Boton hacia arriba -->
+  <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+    <span class="fa-stack">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+    </span>
+  </a>
     <div class="contenedor">
 
       <div class="portada">
@@ -113,25 +122,27 @@
           <div class="container-slider">
             <a href="https://github.com/wilberandresm/api-restful" target="_blank">
               <img class="imagen-slider" src="./img/api_instagram.jpg" alt="">
-            </a>
+            
             <div class="overlay">
               <div class="texto-overlay"><!--texto con animación-->
                   Creación de una api RESTful en base a la api de instagram,
                   que permite ver la eficiencia del perfil y el promedio de likes por post
               </div>
             </div>
+          </a>
           </div>
 
           <div class="container-slider">
               <a href="https://github.com/wilberandresm/simulated-annealing" target="_blank">
                 <img class="imagen-slider" src="./img/recocido.jpg" alt="">
-              </a>
+              
               <div class="overlay">
                 <div class="texto-overlay">
-                    Alogirtmo de recocido simulado ,implementado para dar resolución
+                    Alogoritmo de recocido simulado ,implementado para dar resolución
                     al problema del agente viajero con datos: berlin52.tsp
                 </div>
               </div>
+            </a>
             </div>
             <div class="boton">
               <div class="vermas">
@@ -229,7 +240,9 @@
 
   </div> <!--fin del contenedor-->
         
-            <script src="../HojaDeVida/js/js.js"></script>
+  <script src="../HojaDeVida/js/js.js"></script>
+  <!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./js/js.js"></script>
     
 </body>
 </html>

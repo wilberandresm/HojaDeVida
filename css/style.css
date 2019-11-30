@@ -9,7 +9,18 @@
   padding: 0;
 	font: inherit;
 	font-size: 100%;
-	vertical-align: baseline;
+  vertical-align: baseline;
+  box-sizing:content-box;
+}
+a{
+  color:black;
+}
+a:focus, a:hover {
+   color: black;
+   text-decoration: none;
+}
+a:active, a:hover {
+  outline: none;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -21,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
   min-width: 375px;
+  color:black
 }
 
 ol, ul {
@@ -42,6 +54,19 @@ table {
 }
 
 /*-----End Reset Css-----*/
+
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:20px;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
 
 .contenedor{
   overflow: hidden;
@@ -267,6 +292,8 @@ header{
 }
 .boton{
   width: 100%;
+ -webkit-box-sizing: none;
+ 
 }
 .vermas{
   /*float: 51%;*/
@@ -290,6 +317,7 @@ header{
   text-decoration: none;
   font-family: 'Montserrat', sans-serif;
   color: black;
+  font-size: larger;
 }
 .sobremi{
   flex: 48%;
