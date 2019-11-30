@@ -385,13 +385,29 @@ header{
   flex-wrap: wrap;
   background: black;
 }
+
+.logos-estudios{
+  flex: 48%;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0px;
+}
+.logoutb{
+  justify-content: center;
+  display: flex;
+}
+.logoutb img{
+  height: 121px;
+
+}
 .logoinem{
   flex: 48%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-right: 10px;
-  padding-top: 30px;
+
   padding-bottom: 30px;
 }
 .misestudios{
@@ -450,6 +466,7 @@ header{
   animation-duration: 25s;
   animation-iteration-count: infinite;
 }
+
 
 @keyframes backgroundchange {
   25% {background: url(../img/erwin.jpeg) no-repeat;
