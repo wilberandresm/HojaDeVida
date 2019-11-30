@@ -597,6 +597,7 @@ header{
     .menuppal ul li a{
       text-decoration:none;
       color:white;
+      font-size: x-large;
     }
     .menuppal ul li a:hover{
       text-decoration:none;
